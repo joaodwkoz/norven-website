@@ -65,7 +65,7 @@
         <span>Vamos tirar sua ideia do papel?</span>
 
         <button id="home-btn" onclick="document.querySelector('#about').scrollIntoView({ behavior: 'smooth' });">
-          <img src="{{ url('img/btns/home/btn.png) }}" alt="">
+          <img src="{{ url('img/btns/home/btn.png') }}" alt="">
         </button>
 
         <span class="subtext">Ventos que te guiam adiante.</span>
