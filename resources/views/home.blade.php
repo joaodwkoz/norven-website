@@ -9,7 +9,7 @@
 <body>
   <nav>
     <div id="nav-icon">
-      <img src="img/norven.png" alt="" onclick="window.location.href = ''">
+      <img src="{{ url('img/norven.png') }}" alt="" onclick="location.reload()">
     </div>
 
     <div class="separator"></div>
@@ -36,18 +36,18 @@
   </nav>
 
   <button id="btn-up" onclick="document.querySelector('#home').scrollIntoView({ behavior: 'smooth' });">
-      <img src="img/btns/seta.png" alt="">
+      <img src="{{ url('img/btns/seta.png') }}" alt="">
     </button>
 
   <main id="app">
     <section id="home">
       <div class="bg">
         <div class="bg-icon left">
-          <img src="img/assets/home/floating-icon-left.png" alt="">
+          <img src="{{ url('img/assets/home/floating-icon-left.png') }}" alt="">
         </div>
 
         <div class="bg-icon right">
-          <img src="img/assets/home/floating-icon-right.png" alt="">
+          <img src="{{ url('img/assets/home/floating-icon-right.png') }}" alt="">
         </div>
       </div>
 
@@ -65,7 +65,7 @@
         <span>Vamos tirar sua ideia do papel?</span>
 
         <button id="home-btn" onclick="document.querySelector('#about').scrollIntoView({ behavior: 'smooth' });">
-          <img src="img/btns/home/btn.png" alt="">
+          <img src="{{ url('img/btns/home/btn.png) }}" alt="">
         </button>
 
         <span class="subtext">Ventos que te guiam adiante.</span>
@@ -85,7 +85,7 @@
         </div>
 
         <div class="img">
-          <img src="img/assets/about/Illustration.png" alt="">
+          <img src="{{ url('img/assets/about/Illustration.png') }}" alt="">
         </div>
       </div>
 
@@ -96,15 +96,15 @@
 
         <div class="cards">
           <div class="card">
-            <img src="img/assets/about/Automate.png" alt="">
+            <img src="{{ url('img/assets/about/Automate.png') }}" alt="">
           </div>
 
           <div class="card">
-            <img src="img/assets/about/UX.png" alt="">
+            <img src="{{ url('img/assets/about/UX.png') }}" alt="">
           </div>
 
           <div class="card">
-            <img src="img/assets/about/Accessibility.png" alt="">
+            <img src="{{ url('img/assets/about/Accessibility.png') }}" alt="">
           </div>
         </div>
 
@@ -112,11 +112,11 @@
           <span class="title">Conheça aqueles que nos apoiam</span>
 
           <div class="imgs">
-            <img src="img/assets/about/logo-aquadev.webp" alt="">
+            <img src="{{ url('img/assets/about/logo-aquadev.webp') }}" alt="">
 
-            <img src="img/assets/about/logo-maze.webp" alt="">
+            <img src="{{ url('img/assets/about/logo-maze.webp') }}" alt="">
 
-            <img src="img/assets/about/logo-wisys.webp" alt="">
+            <img src="{{ url('img/assets/about/logo-wisys.webp') }}" alt="">
           </div>
         </div>
       </div>
@@ -136,31 +136,31 @@
               <ul>
                 <li class="selected" data-mode="website">
                   <div class="icon">
-                    <img src="img/assets/projects/website.png" alt="">
+                    <img src="{{ url('img/assets/projects/website.png') }}" alt="">
                   </div>
                   <span class="text">Website</span>
                   <div class="arrow">
-                    <img src="img/assets/projects/seta.png" alt="">
+                    <img src="{{ url('img/assets/projects/seta.png') }}" alt="">
                   </div>
                 </li>
                 
                 <li data-mode="mobile">
                   <div class="icon">
-                    <img src="img/assets/projects/mobile.png" alt="">
+                    <img src="{{ url('img/assets/projects/mobile.png') }}" alt="">
                   </div>
                   <span class="text">Mobile</span>
                   <div class="arrow">
-                    <img src="img/assets/projects/seta.png" alt="">
+                    <img src="{{ url('img/assets/projects/seta.png') }}" alt="">
                   </div>
                 </li>
                 
                 <li data-mode="software">
                   <div class="icon">
-                    <img src="img/assets/projects/software.png" alt="">
+                    <img src="{{ url('img/assets/projects/software.png') }}" alt="">
                   </div>
                   <span class="text">Software</span>
                   <div class="arrow">
-                    <img src="img/assets/projects/seta.png" alt="">
+                    <img src="{{ url('img/assets/projects/seta.png') }}" alt="">
                   </div>
                 </li>
               </ul>
@@ -169,7 +169,7 @@
   
           <div class="carousel">
             <div class="btn back">
-              <img src="img/assets/projects/seta-projeto.png" alt="" style="transform: rotate(180deg);">
+              <img src="{{ url('img/assets/projects/seta-projeto.png') }}" alt="" style="transform: rotate(180deg);">
             </div>
   
             <div class="img">
@@ -185,7 +185,7 @@
             </div>
   
             <div class="btn next">
-              <img src="img/assets/projects/seta-projeto.png" alt="">
+              <img src="{{ url('img/assets/projects/seta-projeto.png') }}" alt="">
             </div>
           </div>
         </div>
@@ -199,27 +199,27 @@
         <div class="first-row">
           <div class="user">
             <div class="user-img">
-              <img src="img/assets/team/foto-adriel.PNG" alt="">
+              <img src="{{ url('img/assets/team/foto-adriel.PNG') }}" alt="">
             </div>
 
             <div class="info">
-              <span>Adriel - DBA</span>
+              <span>Adriel - Front-end</span>
             </div>
           </div>
 
           <div class="user">
             <div class="user-img">
-              <img src="img/assets/team/foto-bruno.webp" alt="">
+              <img src="{{ url('img/assets/team/foto-bruno.webp') }}" alt="">
             </div>
 
             <div class="info">
-              <span>Bruno - Back-end</span>
+              <span>Bruno - Fullstack - Mobile</span>
             </div>
           </div>
 
           <div class="user">
             <div class="user-img">
-              <img src="img/assets/team/foto-gustavo.webp" alt="">
+              <img src="{{ url('img/assets/team/foto-gustavo.webp') }}" alt="">
             </div>
 
             <div class="info">
@@ -229,17 +229,17 @@
 
           <div class="user">
             <div class="user-img">
-              <img src="img/assets/team/foto-joao.PNG" alt="">
+              <img src="{{ url('img/assets/team/foto-joao.PNG') }}" alt="">
             </div>
 
             <div class="info">
-              <span>João Pedro - Full-stack</span>
+              <span>João Pedro - Fullstack</span>
             </div>
           </div>
 
           <div class="user">
             <div class="user-img">
-              <img src="img/assets/team/foto-kaua.webp" alt="">
+              <img src="{{ url('img/assets/team/foto-kaua.webp') }}" alt="">
             </div>
 
             <div class="info">
@@ -251,7 +251,7 @@
         <div class="second-row">
           <div class="user">
             <div class="user-img">
-              <img src="img/assets/team/foto-leticia.webp" alt="">
+              <img src="{{ url('img/assets/team/foto-leticia.webp') }}" alt="">
             </div>
 
             <div class="info">
@@ -261,7 +261,7 @@
 
           <div class="user">
             <div class="user-img">
-              <img src="img/assets/team/foto-luan.webp" alt="">
+              <img src="{{ url('img/assets/team/foto-luan.webp') }}" alt="">
             </div>
 
             <div class="info">
@@ -271,7 +271,7 @@
 
           <div class="user">
             <div class="user-img">
-              <img src="img/assets/team/foto-marcos.webp" alt="">
+              <img src="{{ url('img/assets/team/foto-marcos.webp') }}" alt="">
             </div>
 
             <div class="info">
@@ -281,17 +281,17 @@
 
           <div class="user">
             <div class="user-img">
-              <img src="img/assets/team/foto-maria.webp" alt="">
+              <img src="{{ url('img/assets/team/foto-maria.webp') }}" alt="">
             </div>
 
             <div class="info">
-              <span>Maria - Mobile</span>
+              <span>Maria - Front-end - Mobile</span>
             </div>
           </div>
 
           <div class="user">
             <div class="user-img">
-              <img src="img/assets/team/foto-vitor.PNG" alt="">
+              <img src="{{ url('img/assets/team/foto-vitor.PNG') }}" alt="">
             </div>
 
             <div class="info">
@@ -313,7 +313,7 @@
         </span>
 
         <div class="img">
-          <img src="img/assets/contact/Illustration.png" alt="">
+          <img src="{{ url('img/assets/contact/Illustration.png') }}" alt="">
         </div>
       </div>
 
@@ -351,7 +351,7 @@
 
           <button id="send-btn">
             <div class="icon">
-              <img src="img/assets/contact/send-icon.png" alt="">
+              <img src="{{ url('img/assets/contact/send-icon.png') }}" alt="">
             </div>
 
             <span class="text">Enviar</span>
@@ -370,15 +370,15 @@
 
         <div class="icons">
           <div class="icon">
-            <img src="img/assets/footer/linkedin.png" alt="">
+            <img src="{{ url('img/assets/footer/linkedin.png') }}" alt="">
           </div>
 
           <div class="icon">
-            <img src="img/assets/footer/instagram.png" alt="">
+            <img src="{{ url('img/assets/footer/instagram.png') }}" alt="">
           </div>
 
           <div class="icon">
-            <img src="img/assets/footer/twitter.png" alt="">
+            <img src="{{ url('img/assets/footer/twitter.png') }}" alt="">
           </div>
         </div>
       </div>
@@ -388,33 +388,33 @@
           <button class="go-section" onclick="document.getElementById('about').scrollIntoView({ behavior: 'smooth' })">
             <div class="text">Sobre</div>
             <div class="img">
-              <img src="img/assets/footer/seta-secao.png" alt="">
+              <img src="{{ url('img/assets/footer/seta-secao.png') }}" alt="">
             </div>
           </button>
 
           <button class="go-section" onclick="document.getElementById('projects').scrollIntoView({ behavior: 'smooth' })">
             <div class="text">Projetos</div>
             <div class="img">
-              <img src="img/assets/footer/seta-secao.png" alt="">
+              <img src="{{ url('img/assets/footer/seta-secao.png') }}" alt="">
             </div>
           </button>
 
           <button class="go-section" onclick="document.getElementById('team').scrollIntoView({ behavior: 'smooth' })">
             <div class="text">Time</div>
             <div class="img">
-              <img src="img/assets/footer/seta-secao.png" alt="">
+              <img src="{{ url('img/assets/footer/seta-secao.png') }}" alt="">
             </div>
           </button>
 
           <button class="go-section" onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })">
             <div class="text">Contato</div>
             <div class="img">
-              <img src="img/assets/footer/seta-secao.png" alt="">
+              <img src="{{ url('img/assets/footer/seta-secao.png') }}" alt="">
             </div>
           </button>
 
           <button class="go-up" onclick="document.getElementById('home').scrollIntoView({ behavior: 'smooth' })">
-            <img src="img/assets/footer/seta.png" alt="">
+            <img src="{{ url('img/assets/footer/seta-secao.png') }}" alt="">
           </button>
         </div>
       </div>
@@ -425,8 +425,8 @@
     </div>
   </footer>
 
-  <script src="js/home.js"></script>
-  <script src="js/scrolltrigger.js"></script>
-  <script src="js/projects.js"></script>
+  <script src="{{ url('js/home.js') }}"></script>
+  <script src="{{ url('js/scrolltrigger.js') }}"></script>
+  <script src="{{ url('js/projects.js') }}"></script>
 </body>
 </html>
