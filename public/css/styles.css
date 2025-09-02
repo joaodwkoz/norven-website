@@ -20,7 +20,7 @@ nav {
   left: 50%;
   transform: translateX(-50%);
   width: 50.416vw;
-  height: 7.869vh;
+  height: 9vh;
   background-color: #fff;
   display: flex;
   align-items: center;
@@ -33,7 +33,8 @@ nav {
 }
 
 nav.neo {
-  background-color: #bbddfc;
+  background-color: #e1e5f0;
+  box-shadow: none;
 }
 
 
@@ -130,15 +131,20 @@ nav.neo .separator {
   opacity: 1;
 }
 
+.options {
+    width: 56%;
+}
+
 .options ul {
   display: flex;
+  justify-content: space-around;
   gap: 1.67vw;
   list-style: none;
 }
 
 .options ul li a {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.67vw;
+  font-size: 1.5vw;
   font-weight: 500;
   letter-spacing: -0.03em;
   line-height: 110%;
@@ -661,20 +667,13 @@ nav.neo .options ul li.selected a, nav.neo .options ul li:hover a {
   gap: 15vh;
 }
 
-#team .team .first-row, #team .team .second-row  {
+#team .team .first-row, #team .team .first-row, #team .team .first-row, #team .team .second-row  {
   width: 100%;
   height: 23.7vh;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 3.33vw;
-}
-
-#team .team .first-row {
-  justify-content: flex-start;
-}
-
-#team .team .second-row {
-  justify-content: flex-end;
 }
 
 #team .user {
@@ -706,10 +705,10 @@ nav.neo .options ul li.selected a, nav.neo .options ul li:hover a {
 }
 
 #team .user .info span {
-  font-size: 1vw;
+  font-size: 0.85vw;
   color: #ffffff;
   font-family: 'Poppins', sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: -0.03em;
   line-height: 110%;
 }
