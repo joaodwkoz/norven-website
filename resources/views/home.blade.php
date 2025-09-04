@@ -178,9 +178,6 @@
               </div>
 
               <div class="info">
-                <span class="project-name">Projeto</span>
-  
-                <span class="project-desc">O Labirinto JS</span>
               </div>
             </div>
   
