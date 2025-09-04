@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/* Global styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -84,6 +86,8 @@ footer {
   position: relative;
 }
 
+/* Navbar styles */
+
 #nav-icon {
   width: 13.13vw;
   height: 5vh;
@@ -93,28 +97,6 @@ footer {
 #nav-icon img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
-}
-
-#btn-up {
-  width: 5vw;
-  aspect-ratio: 1 / 1;
-  position: fixed;
-  bottom: 7.04vh;
-  right: 3.96vw;
-  background: #6F9AD7;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 50;
-  opacity: 1;
-  transition: opacity 0.3s;
-}
-
-#btn-up img {
-  width: 50%;
-  height: 50%;
   object-fit: contain;
 }
 
@@ -132,7 +114,7 @@ nav.neo .separator {
 }
 
 .options {
-    width: 56%;
+  width: 56%;
 }
 
 .options ul {
@@ -166,6 +148,32 @@ nav.neo .options ul li.selected a, nav.neo .options ul li:hover a {
   color: #414F5C;
   opacity: 1;
 }
+
+/* Go-up btn styles */
+
+#btn-up {
+  width: 5vw;
+  aspect-ratio: 1 / 1;
+  position: fixed;
+  bottom: 7.04vh;
+  right: 3.96vw;
+  background: #6F9AD7;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+#btn-up img {
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+}
+
+/* Home section styles */
 
 #home {
   display: flex;
@@ -334,6 +342,8 @@ nav.neo .options ul li.selected a, nav.neo .options ul li:hover a {
   justify-content: center;
 }
 
+/* About section styles */
+
 #about .first-content .text {
   width: 50%;
   height: 100%;
@@ -444,6 +454,8 @@ nav.neo .options ul li.selected a, nav.neo .options ul li:hover a {
   border-radius: 0.833333vw;
   object-fit: contain;
 }
+
+/* Projects section styles */
 
 #projects {
   padding: 8.89vh 3.96vw;
@@ -639,6 +651,8 @@ nav.neo .options ul li.selected a, nav.neo .options ul li:hover a {
   color: #2a343d;
 }
 
+/* Team section styles */
+
 #team {
   height: 110vh;
   padding: 7.7vh 3.96vw;
@@ -725,6 +739,8 @@ nav.neo .options ul li.selected a, nav.neo .options ul li:hover a {
   height: 100%;
   object-fit: cover;
 }
+
+/* Contact section styles */
 
 #contact {
   padding: 3.96vw;
@@ -876,6 +892,8 @@ nav.neo .options ul li.selected a, nav.neo .options ul li:hover a {
   letter-spacing: -0.03em;
   line-height: 110%;
 }
+
+/* Footer section styles */
 
 footer .main {
   width: 100%;

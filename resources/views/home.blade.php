@@ -427,6 +427,16 @@
     </div>
   </footer>
 
+  <div id="alert-area">
+    <div class="alert">
+      <div class="icon">
+        <img src="" alt="">
+      </div>
+      
+      <span>Informações inválidas!</span>
+    </div>
+  </div>
+
   <script src="{{ url('js/home.js') }}"></script>
   <script src="{{ url('js/scrolltrigger.js') }}"></script>
   <script src="{{ url('js/projects.js') }}"></script>
