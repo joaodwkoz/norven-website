@@ -18,7 +18,7 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::post('/contato/enviar', [ContatoController::class, 'enviarForm']);
+Route::post('/contato/enviar', [ContatoController::class, 'enviarForm'])->name('contato.enviar');
 
 Route::get('/emails/usuario', function () {
     return view('emails.usuario');

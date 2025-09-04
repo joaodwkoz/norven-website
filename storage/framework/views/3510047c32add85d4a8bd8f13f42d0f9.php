@@ -318,7 +318,7 @@
       </div>
 
       <div class="form">
-        <form action="/contato/enviar" method="POST" id="contact-form">
+        <form id="contact-form" data-action="<?php echo e(route('contato.enviar')); ?>">
           <?php echo csrf_field(); ?>
 
           <div class="nome">
@@ -351,7 +351,7 @@
             <textarea name="mensagem" id=""></textarea>
           </div>
 
-          <button id="send-btn">
+          <button id="send-btn" type="submit">
             <div class="icon">
               <img src="<?php echo e(url('img/assets/contact/send-icon.png')); ?>" alt="">
             </div>
@@ -427,8 +427,16 @@
     </div>
   </footer>
 
+  <div id="alert-area">
+    <div class="alert-container" data-success-icon="<?php echo e(asset('img/assets/alerts/sucesso.png')); ?>" data-error-icon="<?php echo e(asset('img/assets/alerts/erro.png')); ?>">
+
+    </div>
+  </div>
+
   <script src="<?php echo e(url('js/home.js')); ?>"></script>
   <script src="<?php echo e(url('js/scrolltrigger.js')); ?>"></script>
   <script src="<?php echo e(url('js/projects.js')); ?>"></script>
+  <script src="<?php echo e(url('js/alerts.js')); ?>"></script>
+  <script src="<?php echo e(url('js/form.js')); ?>"></script>
 </body>
 </html><?php /**PATH C:\Users\Pedro\Downloads\norven website\norven-website\resources\views/home.blade.php ENDPATH**/ ?>

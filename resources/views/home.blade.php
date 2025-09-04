@@ -318,7 +318,7 @@
       </div>
 
       <div class="form">
-        <form action="/contato/enviar" method="POST" id="contact-form">
+        <form id="contact-form" data-action="{{ route('contato.enviar') }}">
           @csrf
 
           <div class="nome">
@@ -351,7 +351,7 @@
             <textarea name="mensagem" id=""></textarea>
           </div>
 
-          <button id="send-btn">
+          <button id="send-btn" type="submit">
             <div class="icon">
               <img src="{{ url('img/assets/contact/send-icon.png') }}" alt="">
             </div>
@@ -428,17 +428,15 @@
   </footer>
 
   <div id="alert-area">
-    <div class="alert">
-      <div class="icon">
-        <img src="" alt="">
-      </div>
-      
-      <span>Informações inválidas!</span>
+    <div class="alert-container" data-success-icon="{{ asset('img/assets/alerts/sucesso.png') }}" data-error-icon="{{ asset('img/assets/alerts/erro.png') }}">
+
     </div>
   </div>
 
   <script src="{{ url('js/home.js') }}"></script>
   <script src="{{ url('js/scrolltrigger.js') }}"></script>
   <script src="{{ url('js/projects.js') }}"></script>
+  <script src="{{ url('js/alerts.js') }}"></script>
+  <script src="{{ url('js/form.js') }}"></script>
 </body>
 </html>
