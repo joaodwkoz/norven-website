@@ -76,7 +76,7 @@
                             </td>
                           </tr>
                         </table>
-                        <div role="separator" style="line-height: 4px">&zwj;</div> <span style="letter-spacing: -0.03em; font-size: 16px; font-weight: 500; color: #000000">{{ $dados['nome'] }}</span>
+                        <div role="separator" style="line-height: 4px">&zwj;</div> <span style="letter-spacing: -0.03em; font-size: 16px; font-weight: 500; color: #000000"><?php echo e($dados['nome']); ?></span>
                       </td>
                     </tr>
                   </table>
@@ -94,7 +94,7 @@
                             </td>
                           </tr>
                         </table>
-                        <div role="separator" style="line-height: 4px">&zwj;</div> <span style="letter-spacing: -0.03em; font-size: 16px; font-weight: 500; color: #000000">{{ $dados['email'] }}</span>
+                        <div role="separator" style="line-height: 4px">&zwj;</div> <span style="letter-spacing: -0.03em; font-size: 16px; font-weight: 500; color: #000000"><?php echo e($dados['email']); ?></span>
                       </td>
                     </tr>
                   </table>
@@ -112,7 +112,7 @@
                             </td>
                           </tr>
                         </table>
-                        <div role="separator" style="line-height: 4px">&zwj;</div> <span style="letter-spacing: -0.03em; font-size: 16px; font-weight: 500; color: #000000">{{ $dados['empresa'] ?? 'Nenhuma' }}</span>
+                        <div role="separator" style="line-height: 4px">&zwj;</div> <span style="letter-spacing: -0.03em; font-size: 16px; font-weight: 500; color: #000000"><?php echo e($dados['empresa'] ?? 'Nenhuma'); ?></span>
                       </td>
                     </tr>
                   </table>
@@ -130,7 +130,7 @@
                             </td>
                           </tr>
                         </table>
-                        <div role="separator" style="line-height: 4px">&zwj;</div> <span style="letter-spacing: -0.03em; font-size: 16px; font-weight: 500; color: #000000">{{ $dados['assunto'] }}</span>
+                        <div role="separator" style="line-height: 4px">&zwj;</div> <span style="letter-spacing: -0.03em; font-size: 16px; font-weight: 500; color: #000000"><?php echo e($dados['assunto']); ?></span>
                       </td>
                     </tr>
                   </table>
@@ -148,7 +148,7 @@
                             </td>
                           </tr>
                         </table>
-                        <div role="separator" style="line-height: 4px">&zwj;</div> <span style="letter-spacing: -0.03em; font-size: 16px; font-weight: 500; color: #000000">{{ $dados['mensagem'] }}</span>
+                        <div role="separator" style="line-height: 4px">&zwj;</div> <span style="letter-spacing: -0.03em; font-size: 16px; font-weight: 500; color: #000000"><?php echo e($dados['mensagem']); ?></span>
                       </td>
                     </tr>
                   </table>
@@ -157,7 +157,7 @@
                     <tr>
                       <td align="center">
                         <div>
-                          <a href="mailto:{{ $dados['email'] }}?subject={{ urlencode('Contato')}}&body={{ urlencode('Olá,')}}" style="display: inline-block; text-decoration: none; border-radius: 64px; background-color: #6BA1ED; padding: 16px 32px; font-size: 16px; font-weight: 500; line-height: 1; color: #fffffe">
+                          <a href="mailto:<?php echo e($dados['email']); ?>?subject=<?php echo e(urlencode('Contato')); ?>&body=<?php echo e(urlencode('Olá, ')); ?>" style="display: inline-block; text-decoration: none; border-radius: 64px; background-color: #6BA1ED; padding: 16px 32px; font-size: 16px; font-weight: 500; line-height: 1; color: #fffffe">
                             <!--[if mso]><i style="mso-font-width: 150%; mso-text-raise: 31px" hidden>&emsp;</i><![endif]-->
                             <span style="mso-text-raise: 16px">Entrar em contato</span>
                             <!--[if mso]><i hidden style="mso-font-width: 150%">&emsp;&#8203;</i><![endif]-->
@@ -213,4 +213,4 @@
     </div>
   </div>
 </body>
-</html>
+</html><?php /**PATH C:\Users\Pedro\Downloads\norven website\norven-website\resources\views/emails/empresa.blade.php ENDPATH**/ ?>

@@ -59,113 +59,31 @@
                     </tr>
                   </table>
                   <div role="separator" style="line-height: 24px">&zwj;</div>
-                  <h1 style="letter-spacing: -0.03em; margin: 0; font-size: 24px; font-weight: 500; color: #6F9AD7">
-                    Nova mensagem recebida!
+                  <h1 style="letter-spacing: -0.03em; margin: 0 0 24px; font-size: 24px; font-weight: 500; color: #6F9AD7">
+                    Olá, <?php echo e($nome); ?>!
                   </h1>
-                  <div role="separator" style="line-height: 24px">&zwj;</div>
-                  <table role="presentation" cellpadding="0" cellspacing="0" style="width: 100%">
-                    <tr>
-                      <td>
-                        <table role="presentation" cellpadding="0" cellspacing="0">
-                          <tr>
-                            <td style="padding-right: 8px; vertical-align: top">
-                              <img src="https://joaodwkoz.github.io/email-assets/usuario.png" alt="nome" width="12.8" height="16" style="max-width: 100%; vertical-align: middle">
-                            </td>
-                            <td style="vertical-align: top">
-                              <span style="letter-spacing: -0.03em; font-weight: 500; color: #B7D5FF">Nome</span>
-                            </td>
-                          </tr>
-                        </table>
-                        <div role="separator" style="line-height: 4px">&zwj;</div> <span style="letter-spacing: -0.03em; font-size: 16px; font-weight: 500; color: #000000">{{ $dados['nome'] }}</span>
-                      </td>
-                    </tr>
-                  </table>
-                  <div role="separator" style="line-height: 16px">&zwj;</div>
-                  <table role="presentation" cellpadding="0" cellspacing="0" style="width: 100%">
-                    <tr>
-                      <td>
-                        <table role="presentation" cellpadding="0" cellspacing="0">
-                          <tr>
-                            <td style="padding-right: 8px; vertical-align: top">
-                              <img src="https://joaodwkoz.github.io/email-assets/email.png" alt="email" width="16" height="12.75" style="max-width: 100%; vertical-align: middle">
-                            </td>
-                            <td style="vertical-align: top">
-                              <span style="letter-spacing: -0.03em; font-weight: 500; color: #B7D5FF">Email</span>
-                            </td>
-                          </tr>
-                        </table>
-                        <div role="separator" style="line-height: 4px">&zwj;</div> <span style="letter-spacing: -0.03em; font-size: 16px; font-weight: 500; color: #000000">{{ $dados['email'] }}</span>
-                      </td>
-                    </tr>
-                  </table>
-                  <div role="separator" style="line-height: 16px">&zwj;</div>
-                  <table role="presentation" cellpadding="0" cellspacing="0" style="width: 100%">
-                    <tr>
-                      <td>
-                        <table role="presentation" cellpadding="0" cellspacing="0">
-                          <tr>
-                            <td style="padding-right: 8px; vertical-align: top">
-                              <img src="https://joaodwkoz.github.io/email-assets/startup.png" alt="startup" width="16" height="16" style="max-width: 100%; vertical-align: middle">
-                            </td>
-                            <td style="vertical-align: top">
-                              <span style="letter-spacing: -0.03em; font-weight: 500; color: #B7D5FF">Start-up</span>
-                            </td>
-                          </tr>
-                        </table>
-                        <div role="separator" style="line-height: 4px">&zwj;</div> <span style="letter-spacing: -0.03em; font-size: 16px; font-weight: 500; color: #000000">{{ $dados['empresa'] ?? 'Nenhuma' }}</span>
-                      </td>
-                    </tr>
-                  </table>
-                  <div role="separator" style="line-height: 16px">&zwj;</div>
-                  <table role="presentation" cellpadding="0" cellspacing="0" style="width: 100%">
-                    <tr>
-                      <td>
-                        <table role="presentation" cellpadding="0" cellspacing="0">
-                          <tr>
-                            <td style="padding-right: 8px; vertical-align: top">
-                              <img src="https://joaodwkoz.github.io/email-assets/assunto.png" alt="assunto" width="16" height="16" style="max-width: 100%; vertical-align: middle">
-                            </td>
-                            <td style="vertical-align: top">
-                              <span style="letter-spacing: -0.03em; font-weight: 500; color: #B7D5FF">Assunto</span>
-                            </td>
-                          </tr>
-                        </table>
-                        <div role="separator" style="line-height: 4px">&zwj;</div> <span style="letter-spacing: -0.03em; font-size: 16px; font-weight: 500; color: #000000">{{ $dados['assunto'] }}</span>
-                      </td>
-                    </tr>
-                  </table>
-                  <div role="separator" style="line-height: 16px">&zwj;</div>
-                  <table role="presentation" cellpadding="0" cellspacing="0" style="width: 100%">
-                    <tr>
-                      <td>
-                        <table role="presentation" cellpadding="0" cellspacing="0">
-                          <tr>
-                            <td style="padding-right: 8px; vertical-align: top">
-                              <img src="https://joaodwkoz.github.io/email-assets/mensagem.png" alt="mensagem" width="16" height="15.25" style="max-width: 100%; vertical-align: middle">
-                            </td>
-                            <td style="vertical-align: top">
-                              <span style="letter-spacing: -0.03em; font-weight: 500; color: #B7D5FF">Mensagem</span>
-                            </td>
-                          </tr>
-                        </table>
-                        <div role="separator" style="line-height: 4px">&zwj;</div> <span style="letter-spacing: -0.03em; font-size: 16px; font-weight: 500; color: #000000">{{ $dados['mensagem'] }}</span>
-                      </td>
-                    </tr>
-                  </table>
-                  <div role="separator" style="line-height: 24px">&zwj;</div>
+                  <p style="letter-spacing: -0.03em; margin: 0 0 24px; font-size: 16px; font-weight: 500; color: #6F9AD7">
+                    Sua mensagem foi enviada com sucesso para a Norven!
+                  </p>
                   <table role="presentation" cellpadding="0" cellspacing="0" style="width: 100%">
                     <tr>
                       <td align="center">
                         <div>
-                          <a href="mailto:{{ $dados['email'] }}?subject={{ urlencode('Contato')}}&body={{ urlencode('Olá,')}}" style="display: inline-block; text-decoration: none; border-radius: 64px; background-color: #6BA1ED; padding: 16px 32px; font-size: 16px; font-weight: 500; line-height: 1; color: #fffffe">
+                          <a href="mailto:norventcc@gmail.com?subject=Contato&body=<?php echo e(urlencode('Olá, ')); ?>" style="display: inline-block; text-decoration: none; border-radius: 64px; background-color: #6BA1ED; padding: 16px 32px; font-size: 16px; font-weight: 500; line-height: 1; color: #fffffe">
                             <!--[if mso]><i style="mso-font-width: 150%; mso-text-raise: 31px" hidden>&emsp;</i><![endif]-->
-                            <span style="mso-text-raise: 16px">Entrar em contato</span>
+                            <span style="mso-text-raise: 16px">Fale conosco</span>
                             <!--[if mso]><i hidden style="mso-font-width: 150%">&emsp;&#8203;</i><![endif]-->
                           </a>
                         </div>
                       </td>
                     </tr>
                   </table>
+                  <div role="separator" style="line-height: 24px">&zwj;</div>
+                  <p style="letter-spacing: -0.03em; margin: 0; font-size: 16px; line-height: 24px; font-weight: 500; color: #475569">
+                    Com todo carinho,
+                    <br>
+                    <span style="letter-spacing: -0.03em; font-weight: 600; color: #4D7190">Norven</span>
+                  </p>
                   <div role="separator" style="height: 1px; line-height: 1px; background-color: #cbd5e1; margin-top: 24px; margin-bottom: 24px">&zwj;</div>
                   <table role="presentation" cellpadding="0" cellspacing="0" style="width: 100%">
                     <tr>
@@ -213,4 +131,4 @@
     </div>
   </div>
 </body>
-</html>
+</html><?php /**PATH C:\Users\Pedro\Downloads\norven website\norven-website\resources\views/emails/usuario.blade.php ENDPATH**/ ?>

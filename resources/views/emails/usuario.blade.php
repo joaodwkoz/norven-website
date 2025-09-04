@@ -53,23 +53,23 @@
                     <tr>
                       <td>
                         <a href="https://maizzle.com">
-                          <img src="{{ url('/img/assets/emails/logo.png') }}" width="120" alt="Norven" style="max-width: 100%; vertical-align: middle; display: block">
+                          <img src="https://joaodwkoz.github.io/email-assets/logo.png" width="120" alt="Norven" style="max-width: 100%; vertical-align: middle; display: block">
                         </a>
                       </td>
                     </tr>
                   </table>
                   <div role="separator" style="line-height: 24px">&zwj;</div>
-                  <h1 style="letter-spacing: -0.03em; margin: 0 0 24px; font-size: 24px; font-weight: 500; color: #8099BC">
+                  <h1 style="letter-spacing: -0.03em; margin: 0 0 24px; font-size: 24px; font-weight: 500; color: #6F9AD7">
                     Olá, {{ $nome }}!
                   </h1>
-                  <p style="letter-spacing: -0.03em; margin: 0 0 24px; font-size: 16px; font-weight: 500; color: #1750A1">
+                  <p style="letter-spacing: -0.03em; margin: 0 0 24px; font-size: 16px; font-weight: 500; color: #6F9AD7">
                     Sua mensagem foi enviada com sucesso para a Norven!
                   </p>
                   <table role="presentation" cellpadding="0" cellspacing="0" style="width: 100%">
                     <tr>
                       <td align="center">
                         <div>
-                          <a href="https://maizzle.com" style="display: inline-block; text-decoration: none; border-radius: 64px; background-color: #6BA1ED; padding: 16px 32px; font-size: 16px; font-weight: 500; line-height: 1; color: #fffffe">
+                          <a href="mailto:norventcc@gmail.com?subject=Contato&body={{ urlencode('Olá,') }}" style="display: inline-block; text-decoration: none; border-radius: 64px; background-color: #6BA1ED; padding: 16px 32px; font-size: 16px; font-weight: 500; line-height: 1; color: #fffffe">
                             <!--[if mso]><i style="mso-font-width: 150%; mso-text-raise: 31px" hidden>&emsp;</i><![endif]-->
                             <span style="mso-text-raise: 16px">Fale conosco</span>
                             <!--[if mso]><i hidden style="mso-font-width: 150%">&emsp;&#8203;</i><![endif]-->
@@ -80,7 +80,7 @@
                   </table>
                   <div role="separator" style="line-height: 24px">&zwj;</div>
                   <p style="letter-spacing: -0.03em; margin: 0; font-size: 16px; line-height: 24px; font-weight: 500; color: #475569">
-                    Obrigado,
+                    Com todo carinho,
                     <br>
                     <span style="letter-spacing: -0.03em; font-weight: 600; color: #4D7190">Norven</span>
                   </p>
@@ -92,17 +92,17 @@
                           <tr>
                             <td style="padding-right: 8px">
                               <a href>
-                                <img src="{{ url('/img/assets/emails/linkedin.png') }}" alt="linkedin" width="32" height="32" style="vertical-align: middle; display: block; width: 100%; max-width: 32px">
+                                <img src="https://joaodwkoz.github.io/email-assets/linkedin.png" alt="linkedin" width="32" height="32" style="vertical-align: middle; display: block; width: 100%; max-width: 32px">
                               </a>
                             </td>
                             <td style="padding-left: 8px; padding-right: 8px">
                               <a href>
-                                <img src="{{ url('/img/assets/emails/instagram.png') }}" alt="instagram" width="32" height="32" style="vertical-align: middle; display: block; width: 100%; max-width: 32px">
+                                <img src="https://joaodwkoz.github.io/email-assets/instagram.png" alt="instagram" width="32" height="32" style="vertical-align: middle; display: block; width: 100%; max-width: 32px">
                               </a>
                             </td>
                             <td style="padding-left: 8px">
                               <a href>
-                                <img src="{{ url('/img/assets/emails/twitter.png') }}" alt="twitter" width="32" height="32" style="vertical-align: middle; display: block; width: 100%; max-width: 32px">
+                                <img src="https://joaodwkoz.github.io/email-assets/twitter.png" alt="twitter" width="32" height="32" style="vertical-align: middle; display: block; width: 100%; max-width: 32px">
                               </a>
                             </td>
                           </tr>
