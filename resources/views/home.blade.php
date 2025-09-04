@@ -318,35 +318,37 @@
       </div>
 
       <div class="form">
-        <form action="" id="contact-form">
+        <form action="/contato/enviar" method="POST" id="contact-form">
+          @csrf
+
           <div class="nome">
             <span data-important="true">Nome *</span>
 
-            <input type="text" name="" id="">
+            <input type="text" name="nome" id="">
           </div>
 
           <div class="email">
             <span data-important="true">Email *</span>
 
-            <input type="text" name="" id="">
+            <input type="text" name="email" id="">
           </div>
 
           <div class="empresa">
             <span data-important="false">Empresa</span>
 
-            <input type="text" name="" id="">
+            <input type="text" name="empresa" id="">
           </div>
 
           <div class="assunto">
             <span data-important="true">Assunto *</span>
 
-            <div class="select"></div>
+            <input type="text" name="assunto" id="">
           </div>
 
           <div class="mensagem">
-            <span data-important="false">Mensagem</span>
+            <span data-important="false">Mensagem *</span>
 
-            <textarea name="" id=""></textarea>
+            <textarea name="mensagem" id=""></textarea>
           </div>
 
           <button id="send-btn">

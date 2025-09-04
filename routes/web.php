@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContatoController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,4 +16,14 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home');
+});
+
+Route::post('/contato/enviar', [ContatoController::class, 'enviarForm']);
+
+Route::get('/emails/usuario', function () {
+    return view('emails.usuario');
+});
+
+Route::get('/emails/empresa', function () {
+    return view('emails.empresa');
 });
