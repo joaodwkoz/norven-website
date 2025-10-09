@@ -1,18 +1,7 @@
 window.addEventListener('scroll', () => {
     const btn = document.querySelector('#btn-up');
-
-    if(window.scrollY > window.innerHeight){
-        document.querySelector("nav").classList.add('neo');
-        btn.style.opacity = 1;
-    } else {
-        if(document.querySelector("nav").classList.contains('neo')){
-            document.querySelector("nav").classList.remove('neo');
-        }
-        
-        btn.style.opacity = 0;
-    }
     
-    const sections = document.querySelectorAll('#about, #projects, #team, #contact');
+    const sections = document.querySelectorAll('#home, #about, #projects, #team, #contact');
     const options = document.querySelectorAll('nav .options ul li');
 
     let current = '';

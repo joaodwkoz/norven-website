@@ -12,10 +12,12 @@
       <img src="<?php echo e(url('img/norven.png')); ?>" alt="" onclick="location.reload()">
     </div>
 
-    <div class="separator"></div>
-
     <div class="options">
       <ul>
+        <li class="selected">
+          <a href="#home">Home</a>
+        </li>
+
         <li>
           <a href="#about">Sobre</a>
         </li>
@@ -27,11 +29,17 @@
         <li>
           <a href="#team">Time</a>
         </li>
-
-        <li>
-          <a href="#contact">Contato</a>
-        </li>
       </ul>
+    </div>
+
+    <div class="contact">
+      <button id="contact-us-btn" onclick="document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' });">
+        <span>Contato</span>
+
+        <div class="contact-icon">
+            <img src="<?php echo e(url('img/assets/footer/seta-secao-azul.png')); ?>" alt="">
+        </div>
+      </button>
     </div>
   </nav>
 
@@ -149,16 +157,6 @@
                     <img src="<?php echo e(url('img/assets/projects/mobile.png')); ?>" alt="">
                   </div>
                   <span class="text">Mobile</span>
-                  <div class="arrow">
-                    <img src="<?php echo e(url('img/assets/projects/seta.png')); ?>" alt="">
-                  </div>
-                </li>
-                
-                <li data-mode="software">
-                  <div class="icon">
-                    <img src="<?php echo e(url('img/assets/projects/software.png')); ?>" alt="">
-                  </div>
-                  <span class="text">Software</span>
                   <div class="arrow">
                     <img src="<?php echo e(url('img/assets/projects/seta.png')); ?>" alt="">
                   </div>
@@ -288,7 +286,7 @@
 
           <div class="user">
             <div class="user-img">
-              <img src="<?php echo e(url('img/assets/team/foto-vitor.PNG')); ?>" alt="">
+              <img src="<?php echo e(url('img/assets/team/foto-vitor.webp')); ?>" alt="">
             </div>
 
             <div class="info">

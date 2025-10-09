@@ -18,27 +18,22 @@ body {
  
 nav {
   position: fixed;
-  top: 4.44vh;
+  top: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 50.416vw;
-  height: 9vh;
-  background-color: #fff;
+  width: 100%;
+  height: 13vh;
+  background-color: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(12px);
+  border-bottom: 0.0911vw solid #fff;
   display: flex;
   align-items: center;
-  border-radius: 3.33vw;
+  justify-content: space-between;
   gap: 4.44vh;
-  padding: 1.48vh 2.96vh;
-  box-shadow: 0px 0.370370vh 1.11vh 0px rgba(111, 154, 215, 0.25);
+  padding: 1.48vh;
   z-index: 100;
   transition: background-color 0.4s;
 }
-
-nav.neo {
-  background-color: #e1e5f0;
-  box-shadow: none;
-}
-
 
 a {
   text-decoration: none;
@@ -100,23 +95,6 @@ footer {
   object-fit: contain;
 }
 
-.separator {
-  width: 0.416667vw;
-  height: 5.93vh;
-  border-radius: 0.370370vh;
-  background-color: #6F9AD7;
-  opacity: 0.4;
-}
-
-nav.neo .separator {
-  background-color: #607B92;
-  opacity: 1;
-}
-
-.options {
-  width: 56%;
-}
-
 .options ul {
   display: flex;
   justify-content: space-around;
@@ -125,7 +103,7 @@ nav.neo .separator {
 }
 
 .options ul li a {
-  family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 1.5vw;
   font-weight: 500;
   letter-spacing: -0.03em;
@@ -138,15 +116,52 @@ nav.neo .separator {
 .options ul li:hover a, .options ul li.selected a {
   color: #6F9AD7;
   opacity: 1;
-}font-
-
-nav.neo .options ul li a {
-  color: #414F5C;
 }
 
-nav.neo .options ul li.selected a, nav.neo .options ul li:hover a {
-  color: #414F5C;
-  opacity: 1;
+nav .contact {
+  width: 13.13vw;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+nav .contact #contact-us-btn {
+  width: 8.5vw;
+  height: 7vh;
+  border-radius: 7.5vw;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 0.83333vw;
+  padding: 0.75vw;
+  background-color: #90b4e9;
+}
+
+nav .contact #contact-us-btn span {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1vw;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  line-height: 110%;
+  color: #fff;
+}
+
+nav .contact #contact-us-btn .contact-icon {
+  height: 100%;
+  aspect-ratio: 1 / 1 !important;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav .contact #contact-us-btn .contact-icon img {
+  height: 50%;
+  width: 50%;
+  object-fit: contain;
 }
 
 /* Go-up btn styles */
@@ -499,7 +514,7 @@ nav.neo .options ul li.selected a, nav.neo .options ul li:hover a {
 }
 
 #projects .main-content-container .main-content .sidebar-container .separator {
-  height: 25vh;
+  height: 20vh;
   width: 0.416667vw;
   border-radius: 0.208333vw;
   background-color: #D7E8FF;
@@ -507,7 +522,7 @@ nav.neo .options ul li.selected a, nav.neo .options ul li:hover a {
 
 .main-content .sidebar {
   width: 100%;
-  height: 25vh;
+  height: 20vh;
   border-radius: 0.208333vw;
 }
 
@@ -599,7 +614,6 @@ nav.neo .options ul li.selected a, nav.neo .options ul li:hover a {
 .main-content .carousel .img {
   width: 52.19vw;
   height: 100%;
-  background-color: #d7e8ff;
   border-radius: 1.67vw;
   position: relative;
 }
@@ -615,9 +629,10 @@ nav.neo .options ul li.selected a, nav.neo .options ul li:hover a {
 }
 
 .main-content .carousel .img .images img {
-  width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  border-radius: inherit;
+  border: 0.23vw dashed rgba(156, 186, 241, 0.75);
 }
 
 .main-content .carousel .img .info {
@@ -1031,8 +1046,8 @@ footer .main .content .nav .go-up:hover {
 }
 
 footer .main .content .nav .go-up img {
-  width: 50%;
-  height: 50%;
+  width: 33%;
+  height: 33%;
   object-fit: contain;
 }
 
