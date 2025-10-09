@@ -198,7 +198,15 @@
             </div>
 
             <div class="info">
-              <span>Adriel - Front-end</span>
+              <span class="info-name">Adriel</span>
+
+              <div class="info-separator"></div>
+
+              <div class="info-links">
+                <img src="<?php echo e(url('img/assets/team/icon-github.png')); ?>" alt="">
+
+                <img src="<?php echo e(url('img/assets/team/icon-linkedin.png')); ?>" alt="">
+              </div>
             </div>
           </div>
 
@@ -208,7 +216,15 @@
             </div>
 
             <div class="info">
-              <span>Bruno - Fullstack - Mobile</span>
+              <span class="info-name">Bruno</span>
+
+              <div class="info-separator"></div>
+
+              <div class="info-links">
+                <img src="<?php echo e(url('img/assets/team/icon-github.png')); ?>" alt="">
+
+                <img src="<?php echo e(url('img/assets/team/icon-linkedin.png')); ?>" alt="">
+              </div>
             </div>
           </div>
 
@@ -218,7 +234,15 @@
             </div>
 
             <div class="info">
-              <span>Gustavo - Front-end</span>
+              <span class="info-name">Gustavo</span>
+
+              <div class="info-separator"></div>
+
+              <div class="info-links">
+                <img src="<?php echo e(url('img/assets/team/icon-github.png')); ?>" alt="">
+
+                <img src="<?php echo e(url('img/assets/team/icon-linkedin.png')); ?>" alt="">
+              </div>
             </div>
           </div>
 
@@ -228,7 +252,15 @@
             </div>
 
             <div class="info">
-              <span>João Pedro - Fullstack</span>
+              <span class="info-name">João</span>
+
+              <div class="info-separator"></div>
+
+              <div class="info-links">
+                <img src="<?php echo e(url('img/assets/team/icon-github.png')); ?>" alt="">
+
+                <img src="<?php echo e(url('img/assets/team/icon-linkedin.png')); ?>" alt="">
+              </div>
             </div>
           </div>
 
@@ -238,7 +270,15 @@
             </div>
 
             <div class="info">
-              <span>Kauã - Front-end</span>
+              <span class="info-name">Kauã</span>
+
+              <div class="info-separator"></div>
+
+              <div class="info-links">
+                <img src="<?php echo e(url('img/assets/team/icon-github.png')); ?>" alt="">
+
+                <img src="<?php echo e(url('img/assets/team/icon-linkedin.png')); ?>" alt="">
+              </div>
             </div>
           </div>
         </div>
@@ -250,7 +290,15 @@
             </div>
 
             <div class="info">
-              <span>Letícia - Mobile</span>
+              <span class="info-name">Metícia</span>
+
+              <div class="info-separator"></div>
+
+              <div class="info-links">
+                <img src="<?php echo e(url('img/assets/team/icon-github.png')); ?>" alt="">
+
+                <img src="<?php echo e(url('img/assets/team/icon-linkedin.png')); ?>" alt="">
+              </div>
             </div>
           </div>
 
@@ -260,7 +308,15 @@
             </div>
 
             <div class="info">
-              <span>Luan - Back-end</span>
+              <span class="info-name">Luan</span>
+
+              <div class="info-separator"></div>
+
+              <div class="info-links">
+                <img src="<?php echo e(url('img/assets/team/icon-github.png')); ?>" alt="">
+
+                <img src="<?php echo e(url('img/assets/team/icon-linkedin.png')); ?>" alt="">
+              </div>
             </div>
           </div>
 
@@ -270,7 +326,15 @@
             </div>
 
             <div class="info">
-              <span>Marcos - DBA</span>
+              <span class="info-name">Marcos</span>
+
+              <div class="info-separator"></div>
+
+              <div class="info-links">
+                <img src="<?php echo e(url('img/assets/team/icon-github.png')); ?>" alt="">
+
+                <img src="<?php echo e(url('img/assets/team/icon-linkedin.png')); ?>" alt="">
+              </div>
             </div>
           </div>
 
@@ -280,17 +344,33 @@
             </div>
 
             <div class="info">
-              <span>Maria - Front-end - Mobile</span>
+              <span class="info-name">Maria</span>
+
+              <div class="info-separator"></div>
+
+              <div class="info-links">
+                <img src="<?php echo e(url('img/assets/team/icon-github.png')); ?>" alt="">
+
+                <img src="<?php echo e(url('img/assets/team/icon-linkedin.png')); ?>" alt="">
+              </div>
             </div>
           </div>
 
           <div class="user">
-            <div class="user-img">
-              <img src="<?php echo e(url('img/assets/team/foto-vitor.webp')); ?>" alt="">
+            <div class="info">
+              <span class="info-name">Vitor</span>
+
+              <div class="info-separator"></div>
+
+              <div class="info-links">
+                <img src="<?php echo e(url('img/assets/team/icon-github.png')); ?>" alt="">
+
+                <img src="<?php echo e(url('img/assets/team/icon-linkedin.png')); ?>" alt="">
+              </div>
             </div>
 
-            <div class="info">
-              <span>Vitor - Designer</span>
+            <div class="user-img">
+              <img src="<?php echo e(url('img/assets/team/foto-vitor.webp')); ?>" alt="">
             </div>
           </div>
         </div>
