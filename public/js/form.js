@@ -26,9 +26,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     throw errorData;
                 });
             }
-            return res.json().then(errorData => {
-                throw errorData;
-            });
+            
+            return res.json();
         })
         .then(data => {
             criarAlerta(data.sucesso ? 'sucesso' : 'erro', data.mensagem);

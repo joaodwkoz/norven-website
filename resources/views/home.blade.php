@@ -505,7 +505,9 @@
                         <img src="{{ url('img/assets/contact/send-icon.png') }}" alt="">
                     </div>
 
-                    Enviar
+                    <span>
+                        Enviar
+                    </span>
                 </button>
             </div>
         </section>
