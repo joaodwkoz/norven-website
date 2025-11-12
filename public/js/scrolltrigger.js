@@ -1,6 +1,18 @@
 window.addEventListener('scroll', () => {
     const btn = document.querySelector('#btn-up');
     
+    const homeSection = document.querySelector('#home');
+
+    if(homeSection) {
+        const homeBottom = homeSection.getBoundingClientRect().bottom;
+
+        if (homeBottom <= 50) { 
+            btn.style.opacity = '1';
+        } else {
+            btn.style.opacity = '0';
+        }
+    }
+    
     const sections = document.querySelectorAll('#home, #about, #projects, #team, #contact');
     const options = document.querySelectorAll('nav .options ul li');
 

@@ -202,9 +202,13 @@
                             <div class="info-separator"></div>
 
                             <div class="info-links">
-                                <img src="{{ url('img/assets/team/icon-github.png') }}" alt="">
-
-                                <img src="{{ url('img/assets/team/icon-linkedin.png') }}" alt="">
+                                <a href="">
+                                    <img src="{{ url('img/assets/team/icon-github.png') }}" alt="">
+                                </a>
+                                
+                                <a href="">
+                                    <img src="{{ url('img/assets/team/icon-linkedin.png') }}" alt="">
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -220,9 +224,13 @@
                             <div class="info-separator"></div>
 
                             <div class="info-links">
-                                <img src="{{ url('img/assets/team/icon-github.png') }}" alt="">
-
-                                <img src="{{ url('img/assets/team/icon-linkedin.png') }}" alt="">
+                                <a href="">
+                                    <img src="{{ url('img/assets/team/icon-github.png') }}" alt="">
+                                </a>
+                                
+                                <a href="">
+                                    <img src="{{ url('img/assets/team/icon-linkedin.png') }}" alt="">
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -238,9 +246,13 @@
                             <div class="info-separator"></div>
 
                             <div class="info-links">
-                                <img src="{{ url('img/assets/team/icon-github.png') }}" alt="">
-
-                                <img src="{{ url('img/assets/team/icon-linkedin.png') }}" alt="">
+                                <a href="">
+                                    <img src="{{ url('img/assets/team/icon-github.png') }}" alt="">
+                                </a>
+                                
+                                <a href="">
+                                    <img src="{{ url('img/assets/team/icon-linkedin.png') }}" alt="">
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -256,9 +268,13 @@
                             <div class="info-separator"></div>
 
                             <div class="info-links">
-                                <img src="{{ url('img/assets/team/icon-github.png') }}" alt="">
-
-                                <img src="{{ url('img/assets/team/icon-linkedin.png') }}" alt="">
+                                <a href="">
+                                    <img src="{{ url('img/assets/team/icon-github.png') }}" alt="">
+                                </a>
+                                
+                                <a href="">
+                                    <img src="{{ url('img/assets/team/icon-linkedin.png') }}" alt="">
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -274,9 +290,13 @@
                             <div class="info-separator"></div>
 
                             <div class="info-links">
-                                <img src="{{ url('img/assets/team/icon-github.png') }}" alt="">
-
-                                <img src="{{ url('img/assets/team/icon-linkedin.png') }}" alt="">
+                                <a href="">
+                                    <img src="{{ url('img/assets/team/icon-github.png') }}" alt="">
+                                </a>
+                                
+                                <a href="">
+                                    <img src="{{ url('img/assets/team/icon-linkedin.png') }}" alt="">
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -294,9 +314,13 @@
                             <div class="info-separator"></div>
 
                             <div class="info-links">
-                                <img src="{{ url('img/assets/team/icon-github.png') }}" alt="">
-
-                                <img src="{{ url('img/assets/team/icon-linkedin.png') }}" alt="">
+                                <a href="">
+                                    <img src="{{ url('img/assets/team/icon-github.png') }}" alt="">
+                                </a>
+                                
+                                <a href="">
+                                    <img src="{{ url('img/assets/team/icon-linkedin.png') }}" alt="">
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -312,9 +336,13 @@
                             <div class="info-separator"></div>
 
                             <div class="info-links">
-                                <img src="{{ url('img/assets/team/icon-github.png') }}" alt="">
-
-                                <img src="{{ url('img/assets/team/icon-linkedin.png') }}" alt="">
+                                <a href="">
+                                    <img src="{{ url('img/assets/team/icon-github.png') }}" alt="">
+                                </a>
+                                
+                                <a href="">
+                                    <img src="{{ url('img/assets/team/icon-linkedin.png') }}" alt="">
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -330,9 +358,13 @@
                             <div class="info-separator"></div>
 
                             <div class="info-links">
-                                <img src="{{ url('img/assets/team/icon-github.png') }}" alt="">
-
-                                <img src="{{ url('img/assets/team/icon-linkedin.png') }}" alt="">
+                                <a href="">
+                                    <img src="{{ url('img/assets/team/icon-github.png') }}" alt="">
+                                </a>
+                                
+                                <a href="">
+                                    <img src="{{ url('img/assets/team/icon-linkedin.png') }}" alt="">
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -348,28 +380,36 @@
                             <div class="info-separator"></div>
 
                             <div class="info-links">
-                                <img src="{{ url('img/assets/team/icon-github.png') }}" alt="">
-
-                                <img src="{{ url('img/assets/team/icon-linkedin.png') }}" alt="">
+                                <a href="">
+                                    <img src="{{ url('img/assets/team/icon-github.png') }}" alt="">
+                                </a>
+                                
+                                <a href="">
+                                    <img src="{{ url('img/assets/team/icon-linkedin.png') }}" alt="">
+                                </a>
                             </div>
                         </div>
                     </div>
 
                     <div class="user">
+                        <div class="user-img">
+                            <img src="{{ url('img/assets/team/foto-vitor.webp') }}" alt="">
+                        </div>
+
                         <div class="info">
                             <span class="info-name">Vitor</span>
 
                             <div class="info-separator"></div>
 
                             <div class="info-links">
-                                <img src="{{ url('img/assets/team/icon-github.png') }}" alt="">
-
-                                <img src="{{ url('img/assets/team/icon-linkedin.png') }}" alt="">
+                                <a href="">
+                                    <img src="{{ url('img/assets/team/icon-github.png') }}" alt="">
+                                </a>
+                                
+                                <a href="">
+                                    <img src="{{ url('img/assets/team/icon-linkedin.png') }}" alt="">
+                                </a>
                             </div>
-                        </div>
-
-                        <div class="user-img">
-                            <img src="{{ url('img/assets/team/foto-vitor.webp') }}" alt="">
                         </div>
                     </div>
                 </div>
@@ -476,17 +516,17 @@
                 <span class="desc">Ventos que te guiam adiante.</span>
 
                 <div class="icons">
-                    <div class="icon">
+                    <a class="icon">
                         <img src="{{ url('img/assets/footer/linkedin.png') }}" alt="">
-                    </div>
+                    </a>
 
-                    <div class="icon">
+                    <a class="icon">
                         <img src="{{ url('img/assets/footer/instagram.png') }}" alt="">
-                    </div>
+                    </a>
 
-                    <div class="icon">
+                    <a class="icon">
                         <img src="{{ url('img/assets/footer/twitter.png') }}" alt="">
-                    </div>
+                    </a>
                 </div>
             </div>
 

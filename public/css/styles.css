@@ -178,7 +178,7 @@ nav .contact #contact-us-btn .contact-icon img {
   align-items: center;
   justify-content: center;
   z-index: 50;
-  opacity: 1;
+  opacity: 0;
   transition: opacity 0.3s;
 }
 
@@ -750,7 +750,7 @@ nav .contact #contact-us-btn .contact-icon img {
   height: 100%;
   width: 0.25vw;
   background-color: #fff;
-  border-radius: 0.05vw;
+  border-radius: 0.1vw;
 }
 
 #team .user .info .info-links {
@@ -762,11 +762,15 @@ nav .contact #contact-us-btn .contact-icon img {
   gap: 0.833333vw;
 }
 
-#team .user .info .info-links img:hover {
+#team .user .info .info-links a {
+    height: 100%;
+}
+
+#team .user .info .info-links a img:hover {
   opacity: 1;
 }
 
-#team .user .info .info-links img {
+#team .user .info .info-links a img {
   height: 100%;
   object-fit: contain;
   opacity: 0.5;
@@ -1006,7 +1010,7 @@ footer .main .identity .icons {
 }
 
 footer .main .identity .icons .icon {
-  height: 75%;
+  height: 100%;
   aspect-ratio: 1 / 1;
 }
 
