@@ -173,9 +173,16 @@
                         <div class="img">
                             <div class="images">
                                 
-                            </div>
+                                <div class="info">
+                                    <span class="project-name">
 
-                            <div class="info"></div>
+                                    </span>
+
+                                    <span class="project-desc">
+
+                                    </span>
+                                </div>
+                            </div>
                         </div>
             
                         <div class="btn next">
