@@ -7,511 +7,541 @@
     <title>Norven</title>
 </head>
 <body>
-  <nav>
-    <div id="nav-icon">
-      <img src="<?php echo e(url('img/norven.png')); ?>" alt="" onclick="location.reload()">
-    </div>
-
-    <div class="options">
-      <ul>
-        <li class="selected">
-          <a href="#home">Home</a>
-        </li>
-
-        <li>
-          <a href="#about">Sobre</a>
-        </li>
-
-        <li>
-          <a href="#projects">Projetos</a>
-        </li>
-
-        <li>
-          <a href="#team">Time</a>
-        </li>
-      </ul>
-    </div>
-
-    <div class="contact">
-      <button id="contact-us-btn" onclick="document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' });">
-        <span>Contato</span>
-
-        <div class="contact-icon">
-            <img src="<?php echo e(url('img/assets/footer/seta-secao-azul.png')); ?>" alt="">
+    <nav>
+        <div id="nav-icon">
+            <img src="<?php echo e(url('img/norven.png')); ?>" alt="" onclick="location.reload()">
         </div>
-      </button>
-    </div>
-  </nav>
 
-  <button id="btn-up" onclick="document.querySelector('#home').scrollIntoView({ behavior: 'smooth' });">
-      <img src="<?php echo e(url('img/btns/seta.png')); ?>" alt="">
+        <div class="options">
+            <ul>
+                <li class="selected">
+                    <a href="#home">Home</a>
+                </li>
+
+                <li>
+                    <a href="#about">Sobre</a>
+                </li>
+
+                <li>
+                    <a href="#projects">Projetos</a>
+                </li>
+
+                <li>
+                    <a href="#team">Time</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="contact">
+            <button id="contact-us-btn" onclick="document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' });">
+                <span>Contato</span>
+
+                <div class="contact-icon">
+                    <img src="<?php echo e(url('img/assets/footer/seta-secao-azul.png')); ?>" alt="">
+                </div>
+            </button>
+        </div>
+    </nav>
+
+    <button id="btn-up" onclick="document.querySelector('#home').scrollIntoView({ behavior: 'smooth' });">
+        <img src="<?php echo e(url('img/btns/seta.png')); ?>" alt="">
     </button>
 
-  <main id="app">
-    <section id="home">
-      <div class="bg">
-        <div class="bg-icon left">
-          <img src="<?php echo e(url('img/assets/home/floating-icon-left.png')); ?>" alt="">
-        </div>
+    <main id="app">
+        <section id="home">
+            <div class="bg">
+                <div class="bg-icon left">
+                    <img src="<?php echo e(url('img/assets/home/floating-icon-left.png')); ?>" alt="">
+                </div>
 
-        <div class="bg-icon right">
-          <img src="<?php echo e(url('img/assets/home/floating-icon-right.png')); ?>" alt="">
-        </div>
-      </div>
-
-      <div class="main-text">
-        <span class="normal">
-          O vento da inovação no seu
-        </span>
-        <span class="bold">
-          Negócio
-        </span>
-        <div class="separator"></div>
-      </div>
-
-      <div class="call-to-action">
-        <span>Vamos tirar sua ideia do papel?</span>
-
-        <button id="home-btn" onclick="document.querySelector('#about').scrollIntoView({ behavior: 'smooth' });">
-          <img src="<?php echo e(url('img/btns/home/btn.png')); ?>" alt="">
-        </button>
-
-        <span class="subtext">Ventos que te guiam adiante.</span>
-      </div>
-    </section>
-
-    <section id="about">
-      <div class="first-content">
-        <div class="text">
-          <span class="title">
-            Norven — direção e impulso digital
-          </span>
-
-          <span class="subtitle">
-            Somos movidos pelo vento da inovação. Guiamos startups e empresas de pequeno e médio porte rumo à transformação digital, criando soluções web e mobile que unem propósito, performance e design.
-          </span>
-        </div>
-
-        <div class="img">
-          <img src="<?php echo e(url('img/assets/about/Illustration.png')); ?>" alt="">
-        </div>
-      </div>
-
-      <div class="about-content">
-        <span class="title">
-          Soluções que apontam para o futuro
-        </span>
-
-        <div class="cards">
-          <div class="card">
-            <img src="<?php echo e(url('img/assets/about/Automate.png')); ?>" alt="">
-          </div>
-
-          <div class="card">
-            <img src="<?php echo e(url('img/assets/about/UX.png')); ?>" alt="">
-          </div>
-
-          <div class="card">
-            <img src="<?php echo e(url('img/assets/about/Accessibility.png')); ?>" alt="">
-          </div>
-        </div>
-
-        <div class="partners">
-          <span class="title">Conheça aqueles que nos apoiam</span>
-
-          <div class="imgs">
-            <img src="<?php echo e(url('img/assets/about/logo-aquadev.webp')); ?>" alt="">
-
-            <img src="<?php echo e(url('img/assets/about/logo-maze.webp')); ?>" alt="">
-
-            <img src="<?php echo e(url('img/assets/about/logo-wisys.webp')); ?>" alt="">
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="projects">
-      <span class="title">
-        Nossos projetos
-      </span>
-
-      <div class="main-content-container">
-        <div class="main-content">
-          <div class="sidebar-container">
-            <div class="separator"></div>
-
-            <div class="sidebar">
-              <ul>
-                <li class="selected" data-mode="website">
-                  <div class="icon">
-                    <img src="<?php echo e(url('img/assets/projects/website.png')); ?>" alt="">
-                  </div>
-                  <span class="text">Website</span>
-                  <div class="arrow">
-                    <img src="<?php echo e(url('img/assets/projects/seta.png')); ?>" alt="">
-                  </div>
-                </li>
-                
-                <li data-mode="mobile">
-                  <div class="icon">
-                    <img src="<?php echo e(url('img/assets/projects/mobile.png')); ?>" alt="">
-                  </div>
-                  <span class="text">Mobile</span>
-                  <div class="arrow">
-                    <img src="<?php echo e(url('img/assets/projects/seta.png')); ?>" alt="">
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-  
-          <div class="carousel">
-            <div class="btn back">
-              <img src="<?php echo e(url('img/assets/projects/seta-projeto.png')); ?>" alt="" style="transform: rotate(180deg);">
-            </div>
-  
-            <div class="img">
-              <div class="images">
-                
-              </div>
-
-              <div class="info">
-              </div>
-            </div>
-  
-            <div class="btn next">
-              <img src="<?php echo e(url('img/assets/projects/seta-projeto.png')); ?>" alt="">
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="team">
-      <span class="title">Time</span>
-
-      <div class="team">
-        <div class="first-row">
-          <div class="user">
-            <div class="user-img">
-              <img src="<?php echo e(url('img/assets/team/foto-adriel.PNG')); ?>" alt="">
+                <div class="bg-icon right">
+                    <img src="<?php echo e(url('img/assets/home/floating-icon-right.png')); ?>" alt="">
+                </div>
             </div>
 
-            <div class="info">
-              <span class="info-name">Adriel</span>
-
-              <div class="info-separator"></div>
-
-              <div class="info-links">
-                <img src="<?php echo e(url('img/assets/team/icon-github.png')); ?>" alt="">
-
-                <img src="<?php echo e(url('img/assets/team/icon-linkedin.png')); ?>" alt="">
-              </div>
-            </div>
-          </div>
-
-          <div class="user">
-            <div class="user-img">
-              <img src="<?php echo e(url('img/assets/team/foto-bruno.webp')); ?>" alt="">
+            <div class="main-text">
+                <span class="normal">
+                    O vento da inovação no seu
+                </span>
+                <span class="bold">
+                    Negócio
+                </span>
+                <div class="separator"></div>
             </div>
 
-            <div class="info">
-              <span class="info-name">Bruno</span>
+            <div class="call-to-action">
+                <span>Vamos tirar sua ideia do papel?</span>
 
-              <div class="info-separator"></div>
+                <button id="home-btn" onclick="document.querySelector('#about').scrollIntoView({ behavior: 'smooth' });">
+                    <img src="<?php echo e(url('img/btns/home/btn.png')); ?>" alt="">
+                </button>
 
-              <div class="info-links">
-                <img src="<?php echo e(url('img/assets/team/icon-github.png')); ?>" alt="">
-
-                <img src="<?php echo e(url('img/assets/team/icon-linkedin.png')); ?>" alt="">
-              </div>
+                <span class="subtext">Ventos que te guiam adiante.</span>
             </div>
-          </div>
+        </section>
 
-          <div class="user">
-            <div class="user-img">
-              <img src="<?php echo e(url('img/assets/team/foto-gustavo.webp')); ?>" alt="">
-            </div>
+        <section id="about">
+            <div class="first-content">
+                <div class="text">
+                    <span class="title">
+                        Norven — direção e impulso digital
+                    </span>
 
-            <div class="info">
-              <span class="info-name">Gustavo</span>
+                    <span class="subtitle">
+                        Somos movidos pelo vento da inovação. Guiamos startups e empresas de pequeno e médio porte rumo à transformação digital, criando soluções web e mobile que unem propósito, performance e design.
+                    </span>
+                </div>
 
-              <div class="info-separator"></div>
-
-              <div class="info-links">
-                <img src="<?php echo e(url('img/assets/team/icon-github.png')); ?>" alt="">
-
-                <img src="<?php echo e(url('img/assets/team/icon-linkedin.png')); ?>" alt="">
-              </div>
-            </div>
-          </div>
-
-          <div class="user">
-            <div class="user-img">
-              <img src="<?php echo e(url('img/assets/team/foto-joao.PNG')); ?>" alt="">
+                <div class="img">
+                    <img src="<?php echo e(url('img/assets/about/Illustration.png')); ?>" alt="">
+                </div>
             </div>
 
-            <div class="info">
-              <span class="info-name">João</span>
+            <div class="about-content">
+                <span class="title">
+                    Soluções que apontam para o futuro
+                </span>
 
-              <div class="info-separator"></div>
+                <div class="cards">
+                    <div class="card">
+                        <img src="<?php echo e(url('img/assets/about/Automate.png')); ?>" alt="">
+                    </div>
 
-              <div class="info-links">
-                <img src="<?php echo e(url('img/assets/team/icon-github.png')); ?>" alt="">
+                    <div class="card">
+                        <img src="<?php echo e(url('img/assets/about/UX.png')); ?>" alt="">
+                    </div>
 
-                <img src="<?php echo e(url('img/assets/team/icon-linkedin.png')); ?>" alt="">
-              </div>
+                    <div class="card">
+                            <img src="<?php echo e(url('img/assets/about/Accessibility.png')); ?>" alt="">
+                    </div>
+                </div>
+
+                <div class="partners">
+                    <span class="title">Conheça aqueles que nos apoiam</span>
+
+                    <div class="imgs">
+                        <img src="<?php echo e(url('img/assets/about/logo-aquadev.webp')); ?>" alt="">
+
+                        <img src="<?php echo e(url('img/assets/about/logo-maze.webp')); ?>" alt="">
+
+                        <img src="<?php echo e(url('img/assets/about/logo-wisys.webp')); ?>" alt="">
+                    </div>
+                </div>
             </div>
-          </div>
+        </section>
 
-          <div class="user">
-            <div class="user-img">
-              <img src="<?php echo e(url('img/assets/team/foto-kaua.webp')); ?>" alt="">
+        <section id="projects">
+            <span class="title">
+                Nossos projetos
+            </span>
+
+            <div class="main-content-container">
+                <div class="main-content">
+                    <div class="sidebar-container">
+                        <div class="separator"></div>
+
+                        <div class="sidebar">
+                            <ul>
+                                <li class="selected" data-mode="website">
+                                    <div class="icon">
+                                        <img src="<?php echo e(url('img/assets/projects/website.png')); ?>" alt="">
+                                    </div>
+                                    <span class="text">Website</span>
+                                    <div class="arrow">
+                                        <img src="<?php echo e(url('img/assets/projects/seta.png')); ?>" alt="">
+                                    </div>
+                                </li>
+                                
+                                <li data-mode="mobile">
+                                    <div class="icon">
+                                        <img src="<?php echo e(url('img/assets/projects/mobile.png')); ?>" alt="">
+                                    </div>
+                                    <span class="text">Mobile</span>
+                                    <div class="arrow">
+                                        <img src="<?php echo e(url('img/assets/projects/seta.png')); ?>" alt="">
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+        
+                    <div class="carousel">
+                        <div class="btn back">
+                            <img src="<?php echo e(url('img/assets/projects/seta-projeto.png')); ?>" alt="" style="transform: rotate(180deg);">
+                        </div>
+            
+                        <div class="img">
+                            <div class="images">
+                                
+                            </div>
+
+                            <div class="info"></div>
+                        </div>
+            
+                        <div class="btn next">
+                            <img src="<?php echo e(url('img/assets/projects/seta-projeto.png')); ?>" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="team">
+            <span class="title">Time</span>
+
+            <div class="team">
+                <div class="first-row">
+                    <div class="user">
+                        <div class="user-img">
+                            <img src="<?php echo e(url('img/assets/team/foto-adriel.PNG')); ?>" alt="">
+                        </div>
+
+                        <div class="info">
+                            <span class="info-name">Adriel</span>
+
+                            <div class="info-separator"></div>
+
+                            <div class="info-links">
+                                <img src="<?php echo e(url('img/assets/team/icon-github.png')); ?>" alt="">
+
+                                <img src="<?php echo e(url('img/assets/team/icon-linkedin.png')); ?>" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="user">
+                        <div class="user-img">
+                            <img src="<?php echo e(url('img/assets/team/foto-bruno.webp')); ?>" alt="">
+                        </div>
+
+                        <div class="info">
+                            <span class="info-name">Bruno</span>
+
+                            <div class="info-separator"></div>
+
+                            <div class="info-links">
+                                <img src="<?php echo e(url('img/assets/team/icon-github.png')); ?>" alt="">
+
+                                <img src="<?php echo e(url('img/assets/team/icon-linkedin.png')); ?>" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="user">
+                        <div class="user-img">
+                            <img src="<?php echo e(url('img/assets/team/foto-gustavo.webp')); ?>" alt="">
+                        </div>
+
+                        <div class="info">
+                            <span class="info-name">Gustavo</span>
+
+                            <div class="info-separator"></div>
+
+                            <div class="info-links">
+                                <img src="<?php echo e(url('img/assets/team/icon-github.png')); ?>" alt="">
+
+                                <img src="<?php echo e(url('img/assets/team/icon-linkedin.png')); ?>" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="user">
+                        <div class="user-img">
+                            <img src="<?php echo e(url('img/assets/team/foto-joao.PNG')); ?>" alt="">
+                        </div>
+
+                        <div class="info">
+                            <span class="info-name">João</span>
+
+                            <div class="info-separator"></div>
+
+                            <div class="info-links">
+                                <img src="<?php echo e(url('img/assets/team/icon-github.png')); ?>" alt="">
+
+                                <img src="<?php echo e(url('img/assets/team/icon-linkedin.png')); ?>" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="user">
+                        <div class="user-img">
+                            <img src="<?php echo e(url('img/assets/team/foto-kaua.webp')); ?>" alt="">
+                        </div>
+
+                        <div class="info">
+                            <span class="info-name">Kauã</span>
+
+                            <div class="info-separator"></div>
+
+                            <div class="info-links">
+                                <img src="<?php echo e(url('img/assets/team/icon-github.png')); ?>" alt="">
+
+                                <img src="<?php echo e(url('img/assets/team/icon-linkedin.png')); ?>" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="second-row">
+                    <div class="user">
+                        <div class="user-img">
+                            <img src="<?php echo e(url('img/assets/team/foto-leticia.webp')); ?>" alt="">
+                        </div>
+
+                        <div class="info">
+                            <span class="info-name">Metícia</span>
+
+                            <div class="info-separator"></div>
+
+                            <div class="info-links">
+                                <img src="<?php echo e(url('img/assets/team/icon-github.png')); ?>" alt="">
+
+                                <img src="<?php echo e(url('img/assets/team/icon-linkedin.png')); ?>" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="user">
+                        <div class="user-img">
+                            <img src="<?php echo e(url('img/assets/team/foto-luan.webp')); ?>" alt="">
+                        </div>
+
+                        <div class="info">
+                            <span class="info-name">Luan</span>
+
+                            <div class="info-separator"></div>
+
+                            <div class="info-links">
+                                <img src="<?php echo e(url('img/assets/team/icon-github.png')); ?>" alt="">
+
+                                <img src="<?php echo e(url('img/assets/team/icon-linkedin.png')); ?>" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="user">
+                        <div class="user-img">
+                            <img src="<?php echo e(url('img/assets/team/foto-marcos.webp')); ?>" alt="">
+                        </div>
+
+                        <div class="info">
+                            <span class="info-name">Marcos</span>
+
+                            <div class="info-separator"></div>
+
+                            <div class="info-links">
+                                <img src="<?php echo e(url('img/assets/team/icon-github.png')); ?>" alt="">
+
+                                <img src="<?php echo e(url('img/assets/team/icon-linkedin.png')); ?>" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="user">
+                        <div class="user-img">
+                            <img src="<?php echo e(url('img/assets/team/foto-maria.webp')); ?>" alt="">
+                        </div>
+
+                        <div class="info">
+                            <span class="info-name">Maria</span>
+
+                            <div class="info-separator"></div>
+
+                            <div class="info-links">
+                                <img src="<?php echo e(url('img/assets/team/icon-github.png')); ?>" alt="">
+
+                                <img src="<?php echo e(url('img/assets/team/icon-linkedin.png')); ?>" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="user">
+                        <div class="info">
+                            <span class="info-name">Vitor</span>
+
+                            <div class="info-separator"></div>
+
+                            <div class="info-links">
+                                <img src="<?php echo e(url('img/assets/team/icon-github.png')); ?>" alt="">
+
+                                <img src="<?php echo e(url('img/assets/team/icon-linkedin.png')); ?>" alt="">
+                            </div>
+                        </div>
+
+                        <div class="user-img">
+                            <img src="<?php echo e(url('img/assets/team/foto-vitor.webp')); ?>" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="side-content">
+                <span class="text">
+                    Desenvolva seu projeto conosco!
+                </span>
+
+                <span class="subtext">
+                    Tem um projeto em mente ou quer saber como podemos ajudar a sua startup? Estamos prontos para ouvir você.
+                </span>
+
+                <div class="img">
+                    <img src="<?php echo e(url('img/assets/contact/Illustration.png')); ?>" alt="">
+                </div>
             </div>
 
-            <div class="info">
-              <span class="info-name">Kauã</span>
+            <form id="contact-form" data-action="<?php echo e(route('contato.enviar')); ?>">
+                <?php echo csrf_field(); ?>
+                <div class="form-group">
+                    <div class="form-group-label">
+                        <img src="<?php echo e(url('img/assets/contact/form-nome.png')); ?>" alt="">
 
-              <div class="info-separator"></div>
+                        <span>
+                            Nome *
+                        </span>
+                    </div>
 
-              <div class="info-links">
-                <img src="<?php echo e(url('img/assets/team/icon-github.png')); ?>" alt="">
+                    <input type="text" name="nome" required>
+                </div>
 
-                <img src="<?php echo e(url('img/assets/team/icon-linkedin.png')); ?>" alt="">
-              </div>
+                <div class="form-group">
+                    <div class="form-group-label">
+                        <img src="<?php echo e(url('img/assets/contact/form-email.png')); ?>" alt="">
+
+                        <span>
+                            Email *
+                        </span>
+                    </div>
+
+                    <input type="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <div class="form-group-label">
+                        <img src="<?php echo e(url('img/assets/contact/form-empresa.png')); ?>" alt="">
+
+                        <span>
+                            Empresa
+                        </span>
+                    </div>
+
+                    <input type="text" name="empresa">
+                </div>
+
+                <div class="form-group">
+                    <div class="form-group-label">
+                        <img src="<?php echo e(url('img/assets/contact/form-assunto.png')); ?>" alt="">
+
+                        <span>
+                            Assunto *
+                        </span>
+                    </div>
+
+                    <input type="text" name="assunto">
+                </div>
+
+                <div class="form-group">
+                    <div class="form-group-label">
+                        <img src="<?php echo e(url('img/assets/contact/form-mensagem.png')); ?>" alt="">
+
+                        <span>
+                            Mensagem *
+                        </span>
+                    </div>
+
+                    <textarea name="mensagem" required></textarea>
+                </div>
+
+                <button type="submit" id="send-btn">
+                    <div class="icon">
+                        <img src="<?php echo e(url('img/assets/contact/send-icon.png')); ?>" alt="">
+                    </div>
+
+                    Enviar
+                </button>
             </div>
-          </div>
-        </div>
+        </section>
+    </main>
 
-        <div class="second-row">
-          <div class="user">
-            <div class="user-img">
-              <img src="<?php echo e(url('img/assets/team/foto-leticia.webp')); ?>" alt="">
-            </div>
-
-            <div class="info">
-              <span class="info-name">Metícia</span>
-
-              <div class="info-separator"></div>
-
-              <div class="info-links">
-                <img src="<?php echo e(url('img/assets/team/icon-github.png')); ?>" alt="">
-
-                <img src="<?php echo e(url('img/assets/team/icon-linkedin.png')); ?>" alt="">
-              </div>
-            </div>
-          </div>
-
-          <div class="user">
-            <div class="user-img">
-              <img src="<?php echo e(url('img/assets/team/foto-luan.webp')); ?>" alt="">
-            </div>
-
-            <div class="info">
-              <span class="info-name">Luan</span>
-
-              <div class="info-separator"></div>
-
-              <div class="info-links">
-                <img src="<?php echo e(url('img/assets/team/icon-github.png')); ?>" alt="">
-
-                <img src="<?php echo e(url('img/assets/team/icon-linkedin.png')); ?>" alt="">
-              </div>
-            </div>
-          </div>
-
-          <div class="user">
-            <div class="user-img">
-              <img src="<?php echo e(url('img/assets/team/foto-marcos.webp')); ?>" alt="">
-            </div>
-
-            <div class="info">
-              <span class="info-name">Marcos</span>
-
-              <div class="info-separator"></div>
-
-              <div class="info-links">
-                <img src="<?php echo e(url('img/assets/team/icon-github.png')); ?>" alt="">
-
-                <img src="<?php echo e(url('img/assets/team/icon-linkedin.png')); ?>" alt="">
-              </div>
-            </div>
-          </div>
-
-          <div class="user">
-            <div class="user-img">
-              <img src="<?php echo e(url('img/assets/team/foto-maria.webp')); ?>" alt="">
-            </div>
-
-            <div class="info">
-              <span class="info-name">Maria</span>
-
-              <div class="info-separator"></div>
-
-              <div class="info-links">
-                <img src="<?php echo e(url('img/assets/team/icon-github.png')); ?>" alt="">
-
-                <img src="<?php echo e(url('img/assets/team/icon-linkedin.png')); ?>" alt="">
-              </div>
-            </div>
-          </div>
-
-          <div class="user">
-            <div class="info">
-              <span class="info-name">Vitor</span>
-
-              <div class="info-separator"></div>
-
-              <div class="info-links">
-                <img src="<?php echo e(url('img/assets/team/icon-github.png')); ?>" alt="">
-
-                <img src="<?php echo e(url('img/assets/team/icon-linkedin.png')); ?>" alt="">
-              </div>
-            </div>
-
-            <div class="user-img">
-              <img src="<?php echo e(url('img/assets/team/foto-vitor.webp')); ?>" alt="">
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact">
-      <div class="side-content">
-        <span class="text">
-          Desenvolva seu projeto conosco!
-        </span>
-
-        <span class="subtext">
-          Tem um projeto em mente ou quer saber como podemos ajudar a sua startup? Estamos prontos para ouvir você.
-        </span>
-
-        <div class="img">
-          <img src="<?php echo e(url('img/assets/contact/Illustration.png')); ?>" alt="">
-        </div>
-      </div>
-
-      <div class="form">
-        <form id="contact-form" data-action="<?php echo e(route('contato.enviar')); ?>">
-          <?php echo csrf_field(); ?>
-
-          <div class="nome">
-            <span data-important="true">Nome *</span>
-
-            <input type="text" name="nome" id="">
-          </div>
-
-          <div class="email">
-            <span data-important="true">Email *</span>
-
-            <input type="text" name="email" id="">
-          </div>
-
-          <div class="empresa">
-            <span data-important="false">Empresa</span>
-
-            <input type="text" name="empresa" id="">
-          </div>
-
-          <div class="assunto">
-            <span data-important="true">Assunto *</span>
-
-            <input type="text" name="assunto" id="">
-          </div>
-
-          <div class="mensagem">
-            <span data-important="false">Mensagem *</span>
-
-            <textarea name="mensagem" id=""></textarea>
-          </div>
-
-          <button id="send-btn" type="submit">
-            <div class="icon">
-              <img src="<?php echo e(url('img/assets/contact/send-icon.png')); ?>" alt="">
-            </div>
-
-            <span class="text">Enviar</span>
-          </button>
-        </form>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="main">
-      <div class="identity">
-        <span class="logo">Norven</span>
-
-        <span class="desc">Ventos que te guiam adiante.</span>
-
-        <div class="icons">
-          <div class="icon">
-            <img src="<?php echo e(url('img/assets/footer/linkedin.png')); ?>" alt="">
-          </div>
-
-          <div class="icon">
-            <img src="<?php echo e(url('img/assets/footer/instagram.png')); ?>" alt="">
-          </div>
-
-          <div class="icon">
-            <img src="<?php echo e(url('img/assets/footer/twitter.png')); ?>" alt="">
-          </div>
-        </div>
-      </div>
-
-      <div class="content">
-        <div class="nav">
-          <button class="go-section" onclick="document.getElementById('about').scrollIntoView({ behavior: 'smooth' })">
-            <div class="text">Sobre</div>
-            <div class="img">
-              <img src="<?php echo e(url('img/assets/footer/seta-secao.png')); ?>" alt="">
-            </div>
-          </button>
-
-          <button class="go-section" onclick="document.getElementById('projects').scrollIntoView({ behavior: 'smooth' })">
-            <div class="text">Projetos</div>
-            <div class="img">
-              <img src="<?php echo e(url('img/assets/footer/seta-secao.png')); ?>" alt="">
-            </div>
-          </button>
-
-          <button class="go-section" onclick="document.getElementById('team').scrollIntoView({ behavior: 'smooth' })">
-            <div class="text">Time</div>
-            <div class="img">
-              <img src="<?php echo e(url('img/assets/footer/seta-secao.png')); ?>" alt="">
-            </div>
-          </button>
-
-          <button class="go-section" onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })">
-            <div class="text">Contato</div>
-            <div class="img">
-              <img src="<?php echo e(url('img/assets/footer/seta-secao.png')); ?>" alt="">
-            </div>
-          </button>
-
-          <button class="go-up" onclick="document.getElementById('home').scrollIntoView({ behavior: 'smooth' })">
-            <img src="<?php echo e(url('img/assets/footer/seta-secao.png')); ?>" alt="">
-          </button>
-        </div>
-      </div>
+    <div id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.431471984672!2d-46.40218112361308!3d-23.552942261284986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce65086cafaf55%3A0xf7da96815e7611da!2sEscola%20T%C3%A9cnica%20Estadual%20de%20Guaianazes!5e0!3m2!1spt-BR!2sbr!4v1762966034249!5m2!1spt-BR!2sbr" width="900" height="600" style="border:0;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 
-    <div class="end">
-      <span class="end-text">© 2025 Norven. Todos os direitos reservados.</span>
+    <footer>
+        <div class="main">
+            <div class="identity">
+                <span class="logo">Norven</span>
+
+                <span class="desc">Ventos que te guiam adiante.</span>
+
+                <div class="icons">
+                    <div class="icon">
+                        <img src="<?php echo e(url('img/assets/footer/linkedin.png')); ?>" alt="">
+                    </div>
+
+                    <div class="icon">
+                        <img src="<?php echo e(url('img/assets/footer/instagram.png')); ?>" alt="">
+                    </div>
+
+                    <div class="icon">
+                        <img src="<?php echo e(url('img/assets/footer/twitter.png')); ?>" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="nav">
+                    <button class="go-section" onclick="document.getElementById('about').scrollIntoView({ behavior: 'smooth' })">
+                        <div class="text">Sobre</div>
+                        <div class="img">
+                            <img src="<?php echo e(url('img/assets/footer/seta-secao.png')); ?>" alt="">
+                        </div>
+                    </button>
+
+                    <button class="go-section" onclick="document.getElementById('projects').scrollIntoView({ behavior: 'smooth' })">
+                        <div class="text">Projetos</div>
+                        <div class="img">
+                            <img src="<?php echo e(url('img/assets/footer/seta-secao.png')); ?>" alt="">
+                        </div>
+                    </button>
+
+                    <button class="go-section" onclick="document.getElementById('team').scrollIntoView({ behavior: 'smooth' })">
+                        <div class="text">Time</div>
+                        <div class="img">
+                            <img src="<?php echo e(url('img/assets/footer/seta-secao.png')); ?>" alt="">
+                        </div>
+                    </button>
+
+                    <button class="go-section" onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })">
+                        <div class="text">Contato</div>
+                        <div class="img">
+                            <img src="<?php echo e(url('img/assets/footer/seta-secao.png')); ?>" alt="">
+                        </div>
+                    </button>
+
+                    <button class="go-up" onclick="document.getElementById('home').scrollIntoView({ behavior: 'smooth' })">
+                        <img src="<?php echo e(url('img/assets/footer/seta-secao.png')); ?>" alt="">
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="end">
+            <span class="end-text">© 2025 Norven. Todos os direitos reservados.</span>
+        </div>
+    </footer>
+
+    <div id="alert-area">
+        <div class="alert-container" data-success-icon="<?php echo e(asset('img/assets/alerts/sucesso.png')); ?>" data-error-icon="<?php echo e(asset('img/assets/alerts/erro.png')); ?>">
+
+        </div>
     </div>
-  </footer>
 
-  <div id="alert-area">
-    <div class="alert-container" data-success-icon="<?php echo e(asset('img/assets/alerts/sucesso.png')); ?>" data-error-icon="<?php echo e(asset('img/assets/alerts/erro.png')); ?>">
-
-    </div>
-  </div>
-
-  <script src="<?php echo e(url('js/home.js')); ?>"></script>
-  <script src="<?php echo e(url('js/scrolltrigger.js')); ?>"></script>
-  <script src="<?php echo e(url('js/projects.js')); ?>"></script>
-  <script src="<?php echo e(url('js/alerts.js')); ?>"></script>
-  <script src="<?php echo e(url('js/form.js')); ?>"></script>
+    <script src="<?php echo e(url('js/home.js')); ?>"></script>
+    <script src="<?php echo e(url('js/scrolltrigger.js')); ?>"></script>
+    <script src="<?php echo e(url('js/projects.js')); ?>"></script>
+    <script src="<?php echo e(url('js/alerts.js')); ?>"></script>
+    <script src="<?php echo e(url('js/form.js')); ?>"></script>
 </body>
 </html><?php /**PATH C:\Users\Pedro\Downloads\norven website\norven-website\resources\views/home.blade.php ENDPATH**/ ?>
